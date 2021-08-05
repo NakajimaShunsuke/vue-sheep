@@ -1,6 +1,6 @@
 <template>
 	<img
-		class="block"
+		class="block w-full"
 		:class="{ filter: isFilter, grayscale: isGrayscale }"
 		:src="imgItem"
 		:alt="altText"

@@ -8,9 +8,13 @@
 // Check out https://github.com/vuejs/rfcs/blob/master/active-rfcs/0040-script-setup.md
 </script>
 
+
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho&display=swap');
+
 #app {
-	font-family: Avenir, Helvetica, Arial, sans-serif;
+
+	font-family: 'Shippori Mincho', serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	text-align: center;

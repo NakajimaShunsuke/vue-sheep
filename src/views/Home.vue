@@ -20,7 +20,26 @@
 		<!-- <img class="m-auto" alt="Vue logo" src="../assets/logo.png" />
 		<HelloWorld msg="Hello Vue 3 + Vite" /> -->
 
-		<ImageBox imgItem="/src/assets/images/main-img.jpg" />
+	<div class="relative
+		hidden
+		sm:hidden
+		md:block
+		lg:block
+		xl:block
+	">
+			<ImageBox imgItem="/src/assets/images/main-img.jpg" />
+				<Heading class="absolute inset-0.5"/>
+	</div>
+
+	<div class="
+		block
+		sm:block
+		md:hidden
+		lg:hidden
+		xl:hidden
+	">
+			<Heading class="text-gray-800" />
+	</div>
 
 		<section
 			class="
@@ -34,10 +53,21 @@
 				xl:grid-cols-4
 			"
 		>
+			<div class="col-span-full"><Heading class="text-center" heading_type="h2" heading="新着情報" /></div>
 			<NewsBox />
 			<NewsBox />
 			<NewsBox />
 			<NewsBox />
+		</section>
+
+		<section>
+			<Heading class="
+				text-left
+				sm:text-left
+				md:text-center
+				lg:text-center
+				xl:text-center
+			" heading_type="h2" heading="Alcohol may be man’s worst enemy,but the bible says love your enemy." />
 		</section>
 	</article>
 </template>

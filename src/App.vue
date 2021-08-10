@@ -14,7 +14,7 @@
 
 #app {
 
-	font-family: 'Shippori Mincho', serif;
+	font-family: "Noto Serif JP","游明朝","Yu Mincho",YuMincho,"Hiragino Mincho ProN W3","ヒラギノ明朝 ProN W3","Hiragino Mincho ProN","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	text-align: center;

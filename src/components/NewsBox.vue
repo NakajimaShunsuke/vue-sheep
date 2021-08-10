@@ -7,7 +7,6 @@
     <div class="flex justify-center items-center">
       <p class="text-left">お知らせテキストお知らせテキスト</p>
     </div>
-
   </div>
 </article>
 </template>

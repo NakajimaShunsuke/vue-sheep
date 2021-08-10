@@ -20,6 +20,7 @@
 		<img class="m-auto" alt="Vue logo" src="../assets/logo.png" />
 		<HelloWorld msg="Hello Vue 3 + Vite" />
 		<!-- <ImageBox imgItem="/src/assets/images/main-img.jpg" /> -->
+		<Heading/>
 		<section class="
 			grid
 			gap-4
@@ -40,6 +41,7 @@
 import HelloWorld from "../components/HelloWorld.vue";
 import ImageBox from "../components/ImageBox.vue";
 import NewsBox from "../components/NewsBox.vue"
+import Heading from "../components/Heading.vue"
 
 // This starter template is using Vue 3 experimental <script setup> SFCs
 // Check out https://github.com/vuejs/rfcs/blob/master/active-rfcs/0040-script-setup.md

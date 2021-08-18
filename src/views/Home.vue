@@ -17,7 +17,17 @@
 			lg:bg-green-200
 			xl:bg-blue-200
 		"
-	></article>
+	>
+		<!-- Maineセクション -->
+		<section>
+			<h1 class="text-2xl lg:text-4xl mb-2">Civilization begins with distillation.</h1>
+			<p class="text-xl lg:text-2xl mb-2 font-bold">文明は蒸留から始まる</p>
+			<p class="text-xl lg:text-lg">限られた人生でお酒と過ごす時間を私は後悔していません<br>
+				色・香り・味をその一滴に感じましょう<br>
+				私の味わったお酒を皆様にお届けいたします</p>
+		</section>
+
+	</article>
 </template>
 
 <script setup>

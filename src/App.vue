@@ -17,8 +17,8 @@
 	font-family: "Noto Serif JP","游明朝","Yu Mincho",YuMincho,"Hiragino Mincho ProN W3","ヒラギノ明朝 ProN W3","Hiragino Mincho ProN","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	text-align: center;
 	color: #2c3e50;
+	letter-spacing:0.1em;
 	margin-top: 60px;
   display: flex;
   justify-content: center;

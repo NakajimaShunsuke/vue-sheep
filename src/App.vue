@@ -1,16 +1,14 @@
 <template>
-  <router-view class="base-layout responsive-tools" />
+	<router-view class="base-layout responsive-tools" />
 </template>
 
 <script setup>
-
 // This starter template is using Vue 3 experimental <script setup> SFCs
 // Check out https://github.com/vuejs/rfcs/blob/master/active-rfcs/0040-script-setup.md
 </script>
 
-
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Shippori+Mincho&display=swap");
 
 /**
  * This injects Tailwind's base styles and any base styles registered by
@@ -37,23 +35,23 @@
  * If omitted, Tailwind will append these classes to the very end of
  * your stylesheet by default.
  */
- @tailwind screens;
-
+@tailwind screens;
 
 #app {
-
-	font-family: "Noto Serif JP","游明朝","Yu Mincho",YuMincho,"Hiragino Mincho ProN W3","ヒラギノ明朝 ProN W3","Hiragino Mincho ProN","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
+	font-family: "Noto Serif JP", "游明朝", "Yu Mincho", YuMincho,
+		"Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN",
+		"HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	color: #2c3e50;
-	letter-spacing:0.1em;
+	letter-spacing: 0.1em;
 	margin-top: 60px;
-  display: flex;
-  justify-content: center;
+	display: flex;
+	justify-content: center;
 }
 
 .responsive-tools {
-    /**
+	/**
 			all(mobile): bg-gray-200
 			sm(min-width: 640px):red
 			md(min-width: 768px):yellow
